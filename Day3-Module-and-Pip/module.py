@@ -10,3 +10,7 @@
 # pip3 : this explicitely refers to pip for python 3. Most common gis
 
 
+import pandas
+import numpy
+
+print("modules installed")

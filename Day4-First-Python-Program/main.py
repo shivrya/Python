@@ -1,0 +1,8 @@
+print("Hello World",77777)
+print(5)
+print("Bye")
+print(17*13)
+print(10-1)
+print(9+1)
+print(9/9)
+print(9%2)
