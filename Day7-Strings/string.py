@@ -51,3 +51,35 @@ print(test[:])
 
 
 # String functions
+name = "shivraj"
+
+# length of string
+print(len(name))
+
+# check whether string ends with particular string
+print(name.endswith("raj")) # prints true since name string ends with "raj"
+print(name.endswith("abc")) # prints false since name string does not end with "abc"
+
+# check whether string starts with particular string
+print(name.startswith("shiv")) # prints true since name string starts with "shiv"
+print(name.startswith("aaa"))  # prints false since name string does not start with "shiv"
+
+
+# convert first character of the string from lowercase to uppercase, does not capitalise every word's first character
+print(name.capitalize())  # prints "Shivraj"
+
+# convert first character of each word to uppercase
+n = "shivraj khose"
+print(n.title()) # prints "Shivraj Khose"
+
+# trim blank spaces present in start and end of the string
+print(n.strip())  # prints "shivrajkhose"
+
+# count occurrence of any substring in the string
+print(name.count("shi")) # returns 1 since "shi" exists 1 time in string "name"
+
+# find and return first index of the substring
+print(n.find("hose"))  # returns 9 since "hose" substring starts from 9th index 
+
+# replace substring with another substring
+print(n.replace("khose","sharma"))  # prints "shivraj sharma"
