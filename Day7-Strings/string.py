@@ -16,9 +16,38 @@ c = '''
         shivraj
     '''
 
-
 print(c)
 
 
+
 # string is immutable in java
- 
+
+# index of a string starts from 0 and goes till (length-1)
+#
+
+test = "america"
+
+# this will slice the test string from 0 to 2, excludes 3
+print(test[0:3])  # prints "ame"
+
+
+# this will slice the test string from 1 to 2, excludes 3
+print(test[1:3])  # prints "me"
+
+
+# this will slice the test string from 2 to 2, excludes 3
+print(test[2:3])  # prints "e"
+
+# this will slice the test string from 1 to length-1
+print(test[1:])
+
+# this will slice the test string from 0 to 3
+print(test[:4])
+
+# this will slice the entire test string
+print(test[:])
+
+
+
+
+# String functions
