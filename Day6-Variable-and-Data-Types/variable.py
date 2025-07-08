@@ -21,6 +21,8 @@ e = None    # e is a none type variable, Nothing!
 
 print(f"my name is {name}")
 
+print(f"a is greater than b:{a>b}")
+
 
 
 
